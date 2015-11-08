@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TreasureGame</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_btconnection">BTConnection</string>
+    <string name="title_activity_pistas">Pistas</string>
+    <string name="title_activity_pantalla_final">PantallaFinal</string>
+    <string name="title_activity_pistas_respuestas">PistasRespuestas</string>
+    <string name="title_activity_pista_1">Pista_1</string>
+    <string name="title_activity_pista_2">Pista_2</string>
+    <string name="title_activity_pista_3">Pista_3</string>
+    <string name="title_activity_pista_4">Pista_4</string>
+    <string name="title_activity_pista_5">Pista_5</string>
+    <string name="title_activity_pista_6">Pista_6</string>
+    <string name="title_activity_pista_7">Pista_7</string>
+    <string name="title_activity_pista_8">Pista_8</string>
+    <string name="title_activity_pista_9">Pista_9</string>
+</resources>

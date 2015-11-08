@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.mateo.myapplication.Pistas"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/pantalladosnuevo"
+        android:clickable="false">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaUno"
+            android:layout_marginTop="167dp"
+            android:background="@mipmap/puno"
+            android:ellipsize="start"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/pistaDos"
+            android:layout_toStartOf="@+id/pistaDos"
+            android:layout_marginRight="29dp"
+            android:layout_marginEnd="29dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaDos"
+            android:background="@mipmap/pdos"
+            android:ellipsize="start"
+            android:layout_alignTop="@+id/pistaUno"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaTres"
+            android:background="@mipmap/ptres"
+            android:ellipsize="start"
+            android:layout_alignTop="@+id/pistaDos"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="57dp"
+            android:layout_marginEnd="57dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaCuatro"
+            android:background="@mipmap/pcuatro"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaUno"
+            android:layout_alignLeft="@+id/pistaUno"
+            android:layout_alignStart="@+id/pistaUno" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaCinco"
+            android:background="@mipmap/pcinco"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaDos"
+            android:layout_toRightOf="@+id/pistaUno"
+            android:layout_toEndOf="@+id/pistaUno" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaSeis"
+            android:background="@mipmap/pseis"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaTres"
+            android:layout_alignLeft="@+id/pistaTres"
+            android:layout_alignStart="@+id/pistaTres" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaSiete"
+            android:background="@mipmap/psiete"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaCuatro"
+            android:layout_alignLeft="@+id/pistaCuatro"
+            android:layout_alignStart="@+id/pistaCuatro" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaOcho"
+            android:background="@mipmap/pocho"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaCinco"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/pistaNueve"
+            android:background="@mipmap/pnueve"
+            android:ellipsize="start"
+            android:layout_below="@+id/pistaSeis"
+            android:layout_alignLeft="@+id/pistaSeis"
+            android:layout_alignStart="@+id/pistaSeis" />
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer2"
+            android:layout_marginTop="49dp"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/pistaUno"
+            android:layout_toStartOf="@+id/pistaUno" />
+    </RelativeLayout>
+</RelativeLayout>
